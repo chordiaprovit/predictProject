@@ -6,7 +6,7 @@ from app.format import *
 
 app = Flask(__name__)
 
-model = pickle.load(open('app/lr_model.sav', 'rb'))
+model = pickle.load(open('/Users/provitchordia/PycharmProjects/predictProject/app/lr_model.sav', 'rb'))
 
 @app.route('/predict',methods=['POST','GET'])
 def my_app():

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Ethics/.idea/Ethics.iml" filepath="$PROJECT_DIR$/../Ethics/.idea/Ethics.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/predictFlaskProject.iml" filepath="$PROJECT_DIR$/.idea/predictFlaskProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/predictProject.iml" filepath="$PROJECT_DIR$/.idea/predictProject.iml" />
     </modules>

@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
+form {
+  text-align: center;
+    font-synthesis: weight;
+}
+label {
+   width: 200px;
+   display: inline-block;
+   text-align: center;
+}
+
 input[type=text], select {
   width: 10%;
     align-content: center;
@@ -11,6 +21,7 @@ input[type=text], select {
   border-radius: 4px;
   box-sizing: content-box;
 }
+
 input[type=number], select {
   width: 10%;
     align-content: center;
@@ -20,6 +31,7 @@ input[type=number], select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: content-box;
+    font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
 }
 
 input[type=submit] {
@@ -35,7 +47,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45b049;
+  background-color: #45b0b0;
+    color: #45b0b0;
 }
 
 div {
@@ -43,24 +56,30 @@ div {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+
 </style>
 <head>
     <meta charset="UTF-8">
     <title>credit approval prediction</title>
 </head>
 <h1 align=center>Credit Approval Prediction</H1>
+<body style="background-color:powderblue;">
 <form action='/predict' method="post" class="center">
     <div class="form">
+        <h2 align=center>Personal Details</h2>
         <label for="Gender">Gender:</label>
         <select id="Gender" name="Gender">
             <option value="Male">Male</option>
             <option value="Female">Female</option>
         </select>
+        <br>
         <label for="Married">Married:</label>
         <select id="Married" name="Married">
             <option value="Yes">Yes</option>
             <option value="No">No</option>
         </select>
+        <br>
         <label for="Dependents">Dependents:</label>
         <select id="Dependents" name="Dependents">
             <option value="0">0</option>
@@ -68,28 +87,37 @@ div {
             <option value="2">2</option>
             <option value="3+">3+</option>
         </select>
+        <br>
         <label for="Education">Education:</label>
         <select id="Education" name="Education">
             <option value="Graduate">Graduate</option>
             <option value="Not Graduate">Not Graduate</option>
         </select>
+        <br>
         <label for="Self_Employed">Self_Employed:</label>
         <select id="Self_Employed" name="Self_Employed">
             <option value="Yes">Yes</option>
             <option value="No">No</option>
         </select>
-
-        <input type="number" placeholder="ApplicantIncome" name="ApplicantIncome" required min="0" >
-        <input type="number" placeholder="CoapplicantIncome" name="CoapplicantIncome" required min="0">
-        <input type="number" placeholder="LoanAmount" name="LoanAmount" required  min="0">
-        <input type="number" placeholder="Loan_Amount_Term" name="Loan_Amount_Term"  min="0">
-        <input type="number" placeholder="Credit_History" name="Credit_History" required  min="0">
-
+        <br>
+        <h2 align=center>Loan Details</h2>
+        <label for="ApplicantIncome" align = left>ApplicantIncome:</label>
+        <input type="number" placeholder="ApplicantIncome" name="ApplicantIncome" required min="0" ><br>
+        <label for="CoapplicantIncome">CoapplicantIncome:</label>
+        <input type="number" placeholder="CoapplicantIncome" name="CoapplicantIncome" required min="0"><br>
+        <label for="LoanAmount">LoanAmount:</label>
+        <input type="number" placeholder="LoanAmount" name="LoanAmount" required  min="0"><br>
+        <label for="Loan_Amount_Term">Loan_Amount_Term:</label>
+        <input type="number" placeholder="Loan_Amount_Term" name="Loan_Amount_Term"  min="0"><br>
+        <label for="Credit_History">Credit_History:</label>
+        <input type="number" placeholder="Credit_History" name="Credit_History" required  min="0"><br>
+        <label for="Property_Area">Property_Area:</label>
         <select id="Property_Area" name="Property_Area">
             <option value="Urban">Urban</option>
             <option value="Semiurban">Semiurban</option>
             <option value="Rural">Rural</option>
         </select>
+        <br><br><br>
         <button type="submit">Submit</button>
     </div>
     <br>

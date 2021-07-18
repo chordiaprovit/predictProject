@@ -15,6 +15,7 @@
       <list>
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -133,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626146489221</updated>
-      <workItem from="1626146490342" duration="13988000" />
+      <workItem from="1626146490342" duration="22416000" />
     </task>
     <servers />
   </component>
@@ -141,22 +142,22 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1626317375639">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1626611651608">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1626317375639" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1626317375638">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1626611651608" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1626611651607">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1626317375638" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1626317375638">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1626611651607" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1626611651607">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1626317375638" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1626317375639">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1626611651607" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1626611651608">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1626317375639" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1626611651608" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1626216301711">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -177,9 +178,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="263" y="186" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1626147832412" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1626613364589">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1626613364589" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/predictProject$test.coverage" NAME="test Coverage Results" MODIFIED="1626148392031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
-    <SUITE FILE_PATH="coverage/predictProject$flaskApp.coverage" NAME="flaskApp Coverage Results" MODIFIED="1626317375628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/predictProject$flaskApp.coverage" NAME="flaskApp Coverage Results" MODIFIED="1626611651595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>
